@@ -1,0 +1,19 @@
+﻿{
+  "name": "apexpay-dashboard",
+  "version": "1.0.0",
+  "description": "ApexPay Financial Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["fintech", "dashboard", "payments"],
+  "author": "ApexPay Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "axios": "^1.3.0",
+    "dotenv": "^16.0.3"
+  }
+}

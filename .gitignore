@@ -1,0 +1,8 @@
+# Secretos locales de ApexPay
+.env
+.env.local
+
+# Temporales de compilacion y dependencias generadas por el script
+node_modules/
+dist/
+*.log
